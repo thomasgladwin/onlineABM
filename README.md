@@ -21,7 +21,11 @@ The first invitation will be sent immediately after registering. Most other invi
 
 The /Online directory contains the PHP functions. To understand the code, start with register.php and just follow the links, and when you test the experiment note the PHP pages you're sent to.
 
-The /Online/jsfiles directory  contain directories with Javascript for questionnaires and tasks. Both questionnaires and tasks are controlled by a Manager function, which interfaces with the webpage and presents specific questionnaires and tasks in order.
+The /Online/jsfiles directory  contain directories with Javascript for questionnaires and tasks. Both questionnaires and tasks are controlled by a Manager (questionnaireManagerObj.js and generalTaskMachine.js) function, which interfaces with the webpage and presents specific questionnaires and tasks in order. 
+
+Tasks are organized as an abstract task object (abstractTask.js), which is a general template containing all the boilerplate for presenting blocks and trials. The abstract task is adjusted via an adapt-function to become a particular task. In this experiment, this is a Dot-Probe task, created in taskDP_general.js. Parameters provided to the adapt-function allow for variations on the task. In this case, a Baseline, Assessment and Training version of the Dot-Probe are created, in taskDP_versions.js. Tasks are used in tasks.php and train.php.
+
+Questionnaires are based on template questionnaire (templateQ.jsand templateQPic.js) that is adjusted via a function to create a particular questionnaire. See adhocQ.js in Q_EN for an example. The PHP file Q.php loads the necessary files.
 
 The /Online/Stims directory contains subdirectories with pictures used for assessment and training. These can be changed as desired as long as the filenames remain the same, i.e., stim (1).jpg (and of course the number of stimuli are sufficient for the task; the provided Dot-Probe task needs 20 pictures per stimulus category).
 
