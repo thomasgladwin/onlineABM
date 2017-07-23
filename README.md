@@ -30,3 +30,10 @@ Questionnaires are based on template questionnaire (templateQ.jsand templateQPic
 The /Online/Stims directory contains subdirectories with pictures used for assessment and training. These can be changed as desired as long as the filenames remain the same, i.e., stim (1).jpg (and of course the number of stimuli are sufficient for the task; the provided Dot-Probe task needs 20 pictures per stimulus category).
 
 Data are saved to the /Online/results directory. The data are saved as JSON strings, one line per questionnaire or trial.
+
+Cite as:
+Thomas Edward Gladwin. (2017, July 23). thomasgladwin/onlineABM: Basic online ABM code v1.0.0. Zenodo. http://doi.org/10.5281/zenodo.834053
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.834053.svg)](https://doi.org/10.5281/zenodo.834053)
+
