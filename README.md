@@ -15,7 +15,7 @@ myWebSite.com/2017_07_23_ABM/Online/register.php?username=666&loginsrc=Nonsona
 
 Replace the username "666" with the correct one. The login-source, loginsrc, can be set to Sona1 or Sona2 if you're integrating the experiment in Sona systems. The participant will be sent to an Information and Informed Consent screen where they can choose whether to participate and if so, fill in their email address and a time of day to receive invitations.
 
-The first invitation will be sent immediately after registering. Most other invitations are sent one day after completing the previous session. The final invitation is sent after seven days.
+The first invitation will be sent immediately after registering. Most other invitations are sent one day after completing the previous session. The final invitation is sent after seven days. An email is sent to the researcher-email address when a session is completed.
 
 ---
 
