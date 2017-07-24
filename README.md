@@ -5,6 +5,7 @@ This is an example of a basic online Attentional Bias Modification (ABM) experim
 To use it, you need to upload the unzipped directory to your website. I suggest getting hosting from Dreamhost - everything works with them (this isn't necessarily the case for all hosting providers, especially concerning PHP functions). You will need a GMail account set up to automatically forward mails. You will also need a running cron job for emailing session-invitations, adjusted from the lines below:
 
   #!/bin/sh
+  
   curl "https://www.myWebSite.com/2017_07_23_ABM/Online/mailsender.php?p=fakepassword46352"
 
 The php script taskParams.php contains parameters you need to set up for the software to work on your system or to adjust the experiment. For instance, you will need to use the correct directory address and log-in details for your GMail.
