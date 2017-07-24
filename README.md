@@ -32,6 +32,8 @@ The /Online/Stims directory contains subdirectories with pictures used for asses
 
 Data are saved to the /Online/results directory. The data are saved as JSON strings, one line per questionnaire or trial.
 
+You need to have SwiftMailer (http://swiftmailer.org) installed under Common/swiftmailer-5.x in the root directory of your website. To change the SwiftMailer directory, adjust the references in mailsender.php and register2.php.
+
 Please cite as:
 Thomas Edward Gladwin. (2017, July 23). thomasgladwin/onlineABM: Basic online ABM code v1.0.0. Zenodo. http://doi.org/10.5281/zenodo.834053
 
